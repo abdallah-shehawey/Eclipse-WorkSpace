@@ -1,0 +1,20 @@
+01:31:55 **** Incremental Build of configuration Release for project Smart_Room ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Smart_Room.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   18822 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:       1156 bytes (56.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+01:31:56 Build Finished. 0 errors, 0 warnings. (took 273ms)
+
