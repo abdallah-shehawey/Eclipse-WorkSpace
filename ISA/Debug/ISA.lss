@@ -1466,21 +1466,21 @@ void main()
  b4a:	00 d0       	rcall	.+0      	; 0xb4c <main+0x6>
  b4c:	cd b7       	in	r28, 0x3d	; 61
  b4e:	de b7       	in	r29, 0x3e	; 62
-  *((volatile unsigned char *)0x3A)  = 0x00; //INPUT PORTA
+  *((volatile unsigned char *)0x3A)  = 0x00; /*INPUT PORTA*/                    ///DDRA
  b50:	ea e3       	ldi	r30, 0x3A	; 58
  b52:	f0 e0       	ldi	r31, 0x00	; 0
  b54:	10 82       	st	Z, r1
-  *((volatile unsigned char *)0x3B)  = 0xFF; //Internal PULL UP Resistor
+  *((volatile unsigned char *)0x3B)  = 0xFF; /*Internal PULL UP Resistor*/      ///PORTA
  b56:	eb e3       	ldi	r30, 0x3B	; 59
  b58:	f0 e0       	ldi	r31, 0x00	; 0
  b5a:	8f ef       	ldi	r24, 0xFF	; 255
  b5c:	80 83       	st	Z, r24
-  *((volatile unsigned char *)0x37)  = 0xFF; //for 7 segments one
+  *((volatile unsigned char *)0x37)  = 0xFF; /*for two 7 segments*/             ///DDRB
  b5e:	e7 e3       	ldi	r30, 0x37	; 55
  b60:	f0 e0       	ldi	r31, 0x00	; 0
  b62:	8f ef       	ldi	r24, 0xFF	; 255
  b64:	80 83       	st	Z, r24
-  *((volatile unsigned char *)0x34)  = 0xFF; //for 7 segments two
+  *((volatile unsigned char *)0x34)  = 0xFF; /*for 7seg Enable*/                ///DDRC
  b66:	e4 e3       	ldi	r30, 0x34	; 52
  b68:	f0 e0       	ldi	r31, 0x00	; 0
  b6a:	8f ef       	ldi	r24, 0xFF	; 255
@@ -1490,13 +1490,13 @@ void main()
     {
 
       //Read all bins
-      port_value = ~*((volatile unsigned char *)0x39);
+      port_value = ~*((volatile unsigned char *)0x39);                          ///PINA
  b6e:	e9 e3       	ldi	r30, 0x39	; 57
  b70:	f0 e0       	ldi	r31, 0x00	; 0
  b72:	80 81       	ld	r24, Z
  b74:	80 95       	com	r24
  b76:	80 93 74 00 	sts	0x0074, r24
-      *((volatile unsigned char *)0x32) = ~*((volatile unsigned char *)0x39);
+      *((volatile unsigned char *)0x32) = ~*((volatile unsigned char *)0x39);   ///PORTD
  b7a:	a2 e3       	ldi	r26, 0x32	; 50
  b7c:	b0 e0       	ldi	r27, 0x00	; 0
  b7e:	e9 e3       	ldi	r30, 0x39	; 57
@@ -1641,12 +1641,12 @@ void display_number(unsigned char number)
  c76:	85 34       	cpi	r24, 0x45	; 69
  c78:	49 f4       	brne	.+18     	; 0xc8c <display_number+0x2e>
   {
-    *((volatile unsigned char *)0x38) = 0b00000110;
+    *((volatile unsigned char *)0x38) = 0b00000110;                             ///PORTB
  c7a:	e8 e3       	ldi	r30, 0x38	; 56
  c7c:	f0 e0       	ldi	r31, 0x00	; 0
  c7e:	86 e0       	ldi	r24, 0x06	; 6
  c80:	80 83       	st	Z, r24
-    *((volatile unsigned char *)0x35) = 0b00000011;
+    *((volatile unsigned char *)0x35) = 0b00000011;                             ///PORTC
  c82:	e5 e3       	ldi	r30, 0x35	; 53
  c84:	f0 e0       	ldi	r31, 0x00	; 0
  c86:	83 e0       	ldi	r24, 0x03	; 3
@@ -1669,7 +1669,7 @@ void display_number(unsigned char number)
  ca2:	89 2f       	mov	r24, r25
  ca4:	8d 8f       	std	Y+29, r24	; 0x1d
 
-    *((volatile unsigned char *)0x38) = Seg_Num[digit1];
+    *((volatile unsigned char *)0x38) = Seg_Num[digit1];                        ///PORTB
  ca6:	a8 e3       	ldi	r26, 0x38	; 56
  ca8:	b0 e0       	ldi	r27, 0x00	; 0
  caa:	8e 8d       	ldd	r24, Y+30	; 0x1e
@@ -1680,7 +1680,7 @@ void display_number(unsigned char number)
  cb4:	ff 4f       	sbci	r31, 0xFF	; 255
  cb6:	80 81       	ld	r24, Z
  cb8:	8c 93       	st	X, r24
-    *((volatile unsigned char *)0x35) = 0b00000001;
+    *((volatile unsigned char *)0x35) = 0b00000001;                             ///PORTC
  cba:	e5 e3       	ldi	r30, 0x35	; 53
  cbc:	f0 e0       	ldi	r31, 0x00	; 0
  cbe:	81 e0       	ldi	r24, 0x01	; 1
@@ -1834,7 +1834,7 @@ _delay_loop_2(uint16_t __count)
  da8:	f0 e0       	ldi	r31, 0x00	; 0
  daa:	10 82       	st	Z, r1
 
-    *((volatile unsigned char *)0x38) = Seg_Num[digit2];
+    *((volatile unsigned char *)0x38) = Seg_Num[digit2];                        ///PORTB
  dac:	a8 e3       	ldi	r26, 0x38	; 56
  dae:	b0 e0       	ldi	r27, 0x00	; 0
  db0:	8d 8d       	ldd	r24, Y+29	; 0x1d
@@ -1845,7 +1845,7 @@ _delay_loop_2(uint16_t __count)
  dba:	ff 4f       	sbci	r31, 0xFF	; 255
  dbc:	80 81       	ld	r24, Z
  dbe:	8c 93       	st	X, r24
-    *((volatile unsigned char *)0x35) = 0b00000010;
+    *((volatile unsigned char *)0x35) = 0b00000010;                             ///PORTC
  dc0:	e5 e3       	ldi	r30, 0x35	; 53
  dc2:	f0 e0       	ldi	r31, 0x00	; 0
  dc4:	82 e0       	ldi	r24, 0x02	; 2
