@@ -1485,10 +1485,10 @@ void main()
  b68:	f0 e0       	ldi	r31, 0x00	; 0
  b6a:	8f ef       	ldi	r24, 0xFF	; 255
  b6c:	80 83       	st	Z, r24
-  while (1)
   {
     while (1)
     {
+
       //Read all bins
       port_value = ~*((volatile unsigned char *)0x39);
  b6e:	e9 e3       	ldi	r30, 0x39	; 57

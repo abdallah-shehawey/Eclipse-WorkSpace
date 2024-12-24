@@ -1,4 +1,4 @@
-01:59:27 **** Incremental Build of configuration Debug for project Calculator ****
+02:47:48 **** Incremental Build of configuration Debug for project Calculator ****
 make all 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega32 Calculator.elf
@@ -16,5 +16,5 @@ Data:         30 bytes (1.5% Full)
 Finished building: sizedummy
  
 
-01:59:27 Build Finished. 0 errors, 0 warnings. (took 154ms)
+02:47:48 Build Finished. 0 errors, 0 warnings. (took 162ms)
 

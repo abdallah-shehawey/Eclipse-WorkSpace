@@ -1,4 +1,4 @@
-16:28:42 **** Incremental Build of configuration Release for project Smart_Home_Master ****
+02:13:46 **** Incremental Build of configuration Release for project Smart_Home_Master ****
 make all 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega32 Smart_Home_Master.elf
@@ -16,5 +16,5 @@ Data:       1488 bytes (72.7% Full)
 Finished building: sizedummy
  
 
-16:28:43 Build Finished. 0 errors, 0 warnings. (took 217ms)
+02:13:46 Build Finished. 0 errors, 0 warnings. (took 267ms)
 

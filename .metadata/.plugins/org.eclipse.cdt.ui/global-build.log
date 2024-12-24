@@ -1,983 +1,4 @@
-02:02:23 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-03:37:39 **** Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-03:38:07 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-19:29:33 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-19:31:03 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-19:31:13 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:41: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-19:31:15 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-19:46:40 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:41: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-19:46:43 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-19:46:51 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:41: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-20:01:42 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-20:34:30 **** Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-22:41:38 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-22:44:28 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:41: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:08:27 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3854 bytes (11.8% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:23:44 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:41: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3896 bytes (11.9% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:23:55 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3896 bytes (11.9% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:32:56 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:33:30 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:33:53 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:34:28 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:35:24 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3934 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:35:34 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:35:44 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:35:56 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:36:09 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:36:31 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:37:12 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:49: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:37:27 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:51:22 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:27: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:51:43 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Building file: ../ISA.c
-Invoking: AVR Compiler
-avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
-In file included from ../ISA.c:8:
-c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
-../ISA.c:27: warning: return type of 'main' is not 'int'
-Finished building: ../ISA.c
- 
-Building target: ISA.elf
-Invoking: AVR C Linker
-avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
-Finished building target: ISA.elf
- 
-Invoking: AVR Create Extended Listing
-avr-objdump -h -S ISA.elf  >"ISA.lss"
-Finished building: ISA.lss
- 
-Create Flash image (ihex format)
-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
-Finished building: ISA.hex
- 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-14:51:45 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-15:33:40 **** Incremental Build of configuration Debug for project ISA ****
-make all 
-Invoking: Print Size
-avr-size --format=avr --mcu=atmega32 ISA.elf
-AVR Memory Usage
-----------------
-Device: atmega32
-
-Program:    3936 bytes (12.0% Full)
-(.text + .data + .bootloader)
-
-Data:         23 bytes (1.1% Full)
-(.data + .bss + .noinit)
-
-
-Finished building: sizedummy
- 
-15:47:20 **** Incremental Build of configuration Debug for project ISA ****
+00:58:00 **** Incremental Build of configuration Debug for project ISA ****
 make all 
 Building file: ../ISA.c
 Invoking: AVR Compiler
@@ -1015,7 +36,7 @@ Data:         23 bytes (1.1% Full)
 
 Finished building: sizedummy
  
-16:18:59 **** Incremental Build of configuration Debug for project ISA ****
+00:58:07 **** Incremental Build of configuration Debug for project ISA ****
 make all 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega32 ISA.elf
@@ -1032,7 +53,96 @@ Data:         23 bytes (1.1% Full)
 
 Finished building: sizedummy
  
-16:19:40 **** Incremental Build of configuration Debug for project ISA ****
+01:29:49 **** Incremental Build of configuration Debug for project ISA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ISA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3936 bytes (12.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:30:28 **** Incremental Build of configuration Debug for project ISA ****
+make all 
+Building file: ../ISA.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"ISA.d" -MT"ISA.o" -c -o "ISA.o" "../ISA.c"
+In file included from ../ISA.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../ISA.c:26: warning: return type of 'main' is not 'int'
+Finished building: ../ISA.c
+ 
+Building target: ISA.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ISA.map -mmcu=atmega32 -o "ISA.elf"  ./ISA.o   
+Finished building target: ISA.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ISA.elf  >"ISA.lss"
+Finished building: ISA.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex ISA.elf  "ISA.hex"
+Finished building: ISA.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ISA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3936 bytes (12.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:31:08 **** Incremental Build of configuration Debug for project ISA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ISA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3936 bytes (12.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:31:30 **** Incremental Build of configuration Debug for project ISA ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ISA.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3936 bytes (12.0% Full)
+(.text + .data + .bootloader)
+
+Data:         23 bytes (1.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:31:42 **** Incremental Build of configuration Debug for project ISA ****
 make all 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega32 ISA.elf

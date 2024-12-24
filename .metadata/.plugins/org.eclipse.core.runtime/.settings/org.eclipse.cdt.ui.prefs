@@ -25,12 +25,15 @@ org.eclipse.cdt.ui.formatterprofiles=<?xml version\="1.0" encoding\="UTF-8" stan
 org.eclipse.cdt.ui.formatterprofiles.version=1
 org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.cdt.ui.text.templates.custom=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-pp_default=216,216,216
+pp_default=217,217,217
 pp_directive=244,136,223
 pp_header=240,124,19
+pp_header_bold=true
 semanticHighlighting.enumerator.italic=false
-semanticHighlighting.function.color=237,237,146
-semanticHighlighting.functionDeclaration.color=237,237,146
+semanticHighlighting.field.color=102,225,248
+semanticHighlighting.field.enabled=false
+semanticHighlighting.function.color=241,236,141
+semanticHighlighting.functionDeclaration.color=241,236,141
 semanticHighlighting.globalVariable.color=0,0,255
 semanticHighlighting.label.enabled=true
 semanticHighlighting.localVariable.bold=true
@@ -43,6 +46,8 @@ semanticHighlighting.macroSubstitution.color=248,107,111
 semanticHighlighting.macroSubstitution.enabled=true
 semanticHighlighting.parameterVariable.color=128,255,255
 semanticHighlighting.problem.enabled=true
+semanticHighlighting.staticField.color=141,218,248
+semanticHighlighting.staticField.enabled=false
 semanticHighlighting.staticField.italic=false
 semanticHighlighting.staticMethod.italic=false
 semanticHighlighting.udlSuffix.color=0,255,0

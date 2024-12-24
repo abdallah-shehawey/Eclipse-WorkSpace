@@ -1,0 +1,14 @@
+fn main()
+{
+    let num = 5;
+    let num2 = 10;
+    let sum = num + num2;
+    println!("The sum of {} and {} is {}", num, num2, sum);
+    if num > 6
+    {
+	println!("yes");
+}
+else {
+    println!("No");
+}
+}

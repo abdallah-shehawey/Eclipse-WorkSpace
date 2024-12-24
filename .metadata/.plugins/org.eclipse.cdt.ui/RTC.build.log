@@ -1,4 +1,4 @@
-12:53:06 **** Incremental Build of configuration Debug for project RTC ****
+21:09:10 **** Incremental Build of configuration Debug for project RTC ****
 make all 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega32 RTC.elf
@@ -16,5 +16,5 @@ Data:        828 bytes (40.4% Full)
 Finished building: sizedummy
  
 
-12:53:07 Build Finished. 0 errors, 0 warnings. (took 202ms)
+21:09:10 Build Finished. 0 errors, 0 warnings. (took 264ms)
 

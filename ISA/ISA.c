@@ -33,6 +33,7 @@ void main()
   {
     while (1)
     {
+
       //Read all bins
       port_value = ~*((volatile unsigned char *)0x39);
       *((volatile unsigned char *)0x32) = ~*((volatile unsigned char *)0x39);

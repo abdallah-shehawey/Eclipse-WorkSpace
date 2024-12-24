@@ -1,4 +1,4 @@
-21:22:00 **** Incremental Build of configuration Release for project Smart_Home_Slave ****
+02:13:46 **** Incremental Build of configuration Release for project Smart_Home_Slave ****
 make all 
 Invoking: Print Size
 avr-size --format=avr --mcu=atmega32 Smart_Home_Slave.elf
@@ -16,5 +16,5 @@ Data:        360 bytes (17.6% Full)
 Finished building: sizedummy
  
 
-21:22:01 Build Finished. 0 errors, 0 warnings. (took 321ms)
+02:13:47 Build Finished. 0 errors, 0 warnings. (took 276ms)
 
