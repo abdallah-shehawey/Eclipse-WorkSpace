@@ -8235,3 +8235,2318 @@ Binding(CTRL+SPACE,
 		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,user)
+!SESSION 2024-12-25 05:57:58.258 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-25 05:59:09.021
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-25 05:59:15.856
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-25 05:59:15.856
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-25 05:59:16.461
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-25 06:17:45.006 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-25 06:18:39.475
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-25 06:18:46.085
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-25 06:18:46.085
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-25 06:18:46.643
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-25 14:22:22.739 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-25 14:23:38.852
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-25 14:23:47.489
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2024-12-25 14:24:43.565
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-25 14:24:43.565
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+!SESSION 2024-12-25 15:22:21.659 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-25 15:23:18.439
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-25 15:23:25.692
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-25 15:23:25.692
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-25 15:23:26.142
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-25 17:06:55.930 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-25 17:07:00.291
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-25 17:07:06.284
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-25 17:07:06.284
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-25 17:07:06.734
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-25 21:55:37.937 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-25 21:56:35.188
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2024-12-25 21:56:37.628
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-25 21:56:45.105
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-12-25 22:06:57.608
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait0(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:999)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:73)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:124)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:129)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:427)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-12-25 22:06:57.609
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:35)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:999)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:73)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:124)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:129)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:427)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-12-25 22:06:57.616
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait0(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:375)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:999)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:73)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:124)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:129)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:427)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-25 22:07:00.620
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-25 22:07:00.620
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+!SESSION 2024-12-25 23:48:11.473 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-25 23:49:10.845
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-25 23:49:17.485
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-25 23:49:17.485
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-25 23:49:18.086
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-26 00:22:48.275 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-26 00:24:06.361
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-26 00:24:14.316
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-26 00:24:14.316
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-26 00:24:15.113
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-26 21:04:00.258 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-26 21:04:32.602
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-26 21:04:39.494
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-26 21:04:39.494
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-26 21:04:40.051
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-27 01:30:57.159 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-27 01:31:31.796
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-27 01:31:39.139
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-27 01:55:55.813 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-27 01:55:59.703
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-27 01:56:06.057
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2024-12-27 01:56:53.881
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-27 01:56:53.881
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+!SESSION 2024-12-27 14:02:58.418 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-27 14:03:59.922
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-27 14:04:06.655
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-27 14:04:06.655
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-27 14:04:07.247
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-27 23:34:02.089 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-27 23:34:37.380
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-27 23:34:44.707
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-27 23:34:44.707
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-27 23:34:45.168
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-12-27 23:45:38.503 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-27 23:45:43.425
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-27 23:45:49.854
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-27 23:45:49.854
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-27 23:45:50.599
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:16:58.089
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:16:58.534
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:16:58.913
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:17:05.981
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:17:58.337
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:17:59.062
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:17:59.253
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.ui 4 0 2024-12-28 00:18:41.318
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl cannot be cast to class org.eclipse.ui.views.IViewDescriptor (org.eclipse.e4.ui.model.application.descriptor.basic.impl.PartDescriptorImpl is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @dc6e97f; org.eclipse.ui.views.IViewDescriptor is in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3a16dc71)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.getDescription(NameAndDescriptionToolTip.java:215)
+	at org.eclipse.ui.internal.dialogs.cpd.NameAndDescriptionToolTip.createToolTipContentArea(NameAndDescriptionToolTip.java:90)
+	at org.eclipse.jface.window.ToolTip.toolTipShow(ToolTip.java:345)
+	at org.eclipse.jface.window.ToolTip.toolTipOpen(ToolTip.java:469)
+	at org.eclipse.jface.window.ToolTip.toolTipCreate(ToolTip.java:334)
+	at org.eclipse.jface.window.ToolTip$ToolTipOwnerControlListener.handleEvent(ToolTip.java:609)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.WorkbenchPage.editActionSets(WorkbenchPage.java:1930)
+	at org.eclipse.ui.internal.handlers.EditActionSetsHandler.execute(EditActionSetsHandler.java:35)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:385)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2024-12-30 20:16:06.261 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 4 4 2024-12-30 20:16:39.970
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 17: file:/D:/Embedded System/Embedded Codes/Eclipse WorkSpace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2024-12-30 20:16:47.048
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-12-30 20:16:47.048
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@c1c0f175]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.debug.command.breakpointProperties,C/C++ Breakpoint Properties,
+		View and edit properties for a given C/C++ breakpoint,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.debug.command.breakpointProperties"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@70b74614]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@5480a030]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@3c78c469]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@a994be1c]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Content Assist,
+		Content Assist,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.text.contentAssist.proposals"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,user)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.specific_content_assist.command,C/C++ Content Assist,
+		A parameterizable command that invokes content assist with a single completion proposal category,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.cdt.ui.specific_content_assist.command"),
+		[Parameter(org.eclipse.cdt.ui.specific_content_assist.category_id,type,null,false)],,true),[org.eclipse.core.commands.Parameterization@fa60fd8e]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,user)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-12-30 20:16:47.600
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
