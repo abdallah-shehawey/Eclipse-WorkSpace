@@ -31,43 +31,43 @@ void main()
   *((volatile unsigned char *)0x34)  = 0xFF; /*for 7seg Enable*/                ///DDRC
   while (1)
   {
-    while (1)
+    //Read all bins
+    port_value = ~*((volatile unsigned char *)0x39);                          ///PINA
+    *((volatile unsigned char *)0x32) = ~*((volatile unsigned char *)0x39);   ///PORTD
+    //INST Format
+    //OP  = ((port_value & (1 << 7)) | (port_value & (1 << 6))) >> 6;                           //Port Value & 11000000
+    OP  = (port_value & 0b11000000) >> 6;
+    //OP1 = ((port_value & (1 << 5)) | (port_value & (1 << 4)) |(port_value & (1 << 3))) >> 3;  //Port Value & 00111000
+    OP1 = (port_value & 0b00111000) >> 3;
+    //OP2 = ((port_value & (1 << 2)) | (port_value & (1 << 1)) |(port_value & (1 << 0)));       //Port Value & 00000111
+    OP2 = (port_value & 0b00000111);
+    //Check operation
+    switch (OP)
     {
-
-      //Read all bins
-      port_value = ~*((volatile unsigned char *)0x39);                          ///PINA
-      *((volatile unsigned char *)0x32) = ~*((volatile unsigned char *)0x39);   ///PORTD
-      //INST Format
-      OP  = ((port_value & (1 << 7)) | (port_value & (1 << 6))) >> 6;                           //Port Value & 11000000
-      OP1 = ((port_value & (1 << 5)) | (port_value & (1 << 4)) |(port_value & (1 << 3))) >> 3;  //Port Value & 00111000
-      OP2 = ((port_value & (1 << 2)) | (port_value & (1 << 1)) |(port_value & (1 << 0)));       //Port Value & 00000111
-      //Check operation
-      switch (OP)
+    case 0:
+      Result = OP1 + OP2;
+      break;
+    case 1:
+      Result = OP1 - OP2;
+      break;
+    case 2:
+      Result = OP1 * OP2;
+      break;
+    case 3:
+      //If I divide by zero
+      if (OP2 == 0)
       {
-      case 0:
-        Result = OP1 + OP2;
-        break;
-      case 1:
-        Result = OP1 - OP2;
-        break;
-      case 2:
-        Result = OP1 * OP2;
-        break;
-      case 3:
-        if (OP2 == 0)
-        {
-          Result = 'E';
-        }
-        else
-        {
-          Result = OP1 / OP2;
-        }
-        break;
-      default:
-        break;
+        Result = 'E';
       }
-      display_number(Result);
+      else
+      {
+        Result = OP1 / OP2;
+      }
+      break;
+    default:
+      break;
     }
+    display_number(Result);
   }
 }
 
@@ -82,12 +82,12 @@ void display_number(unsigned char number)
   {
     unsigned char digit1 = number / 10;
     unsigned char digit2 = number % 10;
-
+    //Enable 7_seg one for first number
     *((volatile unsigned char *)0x38) = Seg_Num[digit1];                        ///PORTB
     *((volatile unsigned char *)0x35) = 0b00000001;                             ///PORTC
     _delay_ms(1);
     *((volatile unsigned char *)0x35) = 0x00;
-
+    //Enable 7_seg two for second number
     *((volatile unsigned char *)0x38) = Seg_Num[digit2];                        ///PORTB
     *((volatile unsigned char *)0x35) = 0b00000010;                             ///PORTC
     _delay_ms(1);

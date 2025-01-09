@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ButtonSizeControl
+Bundle-SymbolicName: ButtonSizeControl;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: mypackage.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Export-Package: mypackage
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.workbench.texteditor

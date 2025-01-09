@@ -1485,18 +1485,16 @@ void main()
  b68:	f0 e0       	ldi	r31, 0x00	; 0
  b6a:	8f ef       	ldi	r24, 0xFF	; 255
  b6c:	80 83       	st	Z, r24
+  while (1)
   {
-    while (1)
-    {
-
-      //Read all bins
-      port_value = ~*((volatile unsigned char *)0x39);                          ///PINA
+    //Read all bins
+    port_value = ~*((volatile unsigned char *)0x39);                          ///PINA
  b6e:	e9 e3       	ldi	r30, 0x39	; 57
  b70:	f0 e0       	ldi	r31, 0x00	; 0
  b72:	80 81       	ld	r24, Z
  b74:	80 95       	com	r24
  b76:	80 93 74 00 	sts	0x0074, r24
-      *((volatile unsigned char *)0x32) = ~*((volatile unsigned char *)0x39);   ///PORTD
+    *((volatile unsigned char *)0x32) = ~*((volatile unsigned char *)0x39);   ///PORTD
  b7a:	a2 e3       	ldi	r26, 0x32	; 50
  b7c:	b0 e0       	ldi	r27, 0x00	; 0
  b7e:	e9 e3       	ldi	r30, 0x39	; 57
@@ -1504,15 +1502,17 @@ void main()
  b82:	80 81       	ld	r24, Z
  b84:	80 95       	com	r24
  b86:	8c 93       	st	X, r24
-      //INST Format
-      OP  = ((port_value & (1 << 7)) | (port_value & (1 << 6))) >> 6;                           //Port Value & 11000000
+    //INST Format
+    //OP  = ((port_value & (1 << 7)) | (port_value & (1 << 6))) >> 6;                           //Port Value & 11000000
+    OP  = (port_value & 0b11000000) >> 6;
  b88:	80 91 74 00 	lds	r24, 0x0074
  b8c:	82 95       	swap	r24
  b8e:	86 95       	lsr	r24
  b90:	86 95       	lsr	r24
  b92:	83 70       	andi	r24, 0x03	; 3
  b94:	80 93 75 00 	sts	0x0075, r24
-      OP1 = ((port_value & (1 << 5)) | (port_value & (1 << 4)) |(port_value & (1 << 3))) >> 3;  //Port Value & 00111000
+    //OP1 = ((port_value & (1 << 5)) | (port_value & (1 << 4)) |(port_value & (1 << 3))) >> 3;  //Port Value & 00111000
+    OP1 = (port_value & 0b00111000) >> 3;
  b98:	80 91 74 00 	lds	r24, 0x0074
  b9c:	88 2f       	mov	r24, r24
  b9e:	90 e0       	ldi	r25, 0x00	; 0
@@ -1525,12 +1525,13 @@ void main()
  bac:	95 95       	asr	r25
  bae:	87 95       	ror	r24
  bb0:	80 93 73 00 	sts	0x0073, r24
-      OP2 = ((port_value & (1 << 2)) | (port_value & (1 << 1)) |(port_value & (1 << 0)));       //Port Value & 00000111
+    //OP2 = ((port_value & (1 << 2)) | (port_value & (1 << 1)) |(port_value & (1 << 0)));       //Port Value & 00000111
+    OP2 = (port_value & 0b00000111);
  bb4:	80 91 74 00 	lds	r24, 0x0074
  bb8:	87 70       	andi	r24, 0x07	; 7
  bba:	80 93 76 00 	sts	0x0076, r24
-      //Check operation
-      switch (OP)
+    //Check operation
+    switch (OP)
  bbe:	80 91 75 00 	lds	r24, 0x0075
  bc2:	28 2f       	mov	r18, r24
  bc4:	30 e0       	ldi	r19, 0x00	; 0
@@ -1562,25 +1563,25 @@ void main()
  bf8:	91 05       	cpc	r25, r1
  bfa:	d9 f0       	breq	.+54     	; 0xc32 <main+0xec>
  bfc:	2b c0       	rjmp	.+86     	; 0xc54 <main+0x10e>
-      {
-      case 0:
-        Result = OP1 + OP2;
+    {
+    case 0:
+      Result = OP1 + OP2;
  bfe:	80 91 73 00 	lds	r24, 0x0073
  c02:	90 91 76 00 	lds	r25, 0x0076
  c06:	89 0f       	add	r24, r25
  c08:	80 93 72 00 	sts	0x0072, r24
  c0c:	23 c0       	rjmp	.+70     	; 0xc54 <main+0x10e>
-        break;
-      case 1:
-        Result = OP1 - OP2;
+      break;
+    case 1:
+      Result = OP1 - OP2;
  c0e:	80 91 73 00 	lds	r24, 0x0073
  c12:	90 91 76 00 	lds	r25, 0x0076
  c16:	89 1b       	sub	r24, r25
  c18:	80 93 72 00 	sts	0x0072, r24
  c1c:	1b c0       	rjmp	.+54     	; 0xc54 <main+0x10e>
-        break;
-      case 2:
-        Result = OP1 * OP2;
+      break;
+    case 2:
+      Result = OP1 * OP2;
  c1e:	80 91 73 00 	lds	r24, 0x0073
  c22:	90 91 76 00 	lds	r25, 0x0076
  c26:	89 9f       	mul	r24, r25
@@ -1588,38 +1589,38 @@ void main()
  c2a:	11 24       	eor	r1, r1
  c2c:	80 93 72 00 	sts	0x0072, r24
  c30:	11 c0       	rjmp	.+34     	; 0xc54 <main+0x10e>
-        break;
-      case 3:
-        if (OP2 == 0)
+      break;
+    case 3:
+      //If I divide by zero
+      if (OP2 == 0)
  c32:	80 91 76 00 	lds	r24, 0x0076
  c36:	88 23       	and	r24, r24
  c38:	21 f4       	brne	.+8      	; 0xc42 <main+0xfc>
-        {
-          Result = 'E';
+      {
+        Result = 'E';
  c3a:	85 e4       	ldi	r24, 0x45	; 69
  c3c:	80 93 72 00 	sts	0x0072, r24
  c40:	09 c0       	rjmp	.+18     	; 0xc54 <main+0x10e>
-        }
-        else
-        {
-          Result = OP1 / OP2;
+      }
+      else
+      {
+        Result = OP1 / OP2;
  c42:	80 91 73 00 	lds	r24, 0x0073
  c46:	90 91 76 00 	lds	r25, 0x0076
  c4a:	69 2f       	mov	r22, r25
  c4c:	0e 94 62 07 	call	0xec4	; 0xec4 <__udivmodqi4>
  c50:	80 93 72 00 	sts	0x0072, r24
-        }
-        break;
-      default:
-        break;
       }
-      display_number(Result);
+      break;
+    default:
+      break;
+    }
+    display_number(Result);
  c54:	80 91 72 00 	lds	r24, 0x0072
  c58:	0e 94 2f 06 	call	0xc5e	; 0xc5e <display_number>
  c5c:	88 cf       	rjmp	.-240    	; 0xb6e <main+0x28>
 
 00000c5e <display_number>:
-    }
   }
 }
 
@@ -1668,7 +1669,7 @@ void display_number(unsigned char number)
  c9e:	0e 94 62 07 	call	0xec4	; 0xec4 <__udivmodqi4>
  ca2:	89 2f       	mov	r24, r25
  ca4:	8d 8f       	std	Y+29, r24	; 0x1d
-
+    //Enable 7_seg one for first number
     *((volatile unsigned char *)0x38) = Seg_Num[digit1];                        ///PORTB
  ca6:	a8 e3       	ldi	r26, 0x38	; 56
  ca8:	b0 e0       	ldi	r27, 0x00	; 0
@@ -1833,7 +1834,7 @@ _delay_loop_2(uint16_t __count)
  da6:	e5 e3       	ldi	r30, 0x35	; 53
  da8:	f0 e0       	ldi	r31, 0x00	; 0
  daa:	10 82       	st	Z, r1
-
+    //Enable 7_seg two for second number
     *((volatile unsigned char *)0x38) = Seg_Num[digit2];                        ///PORTB
  dac:	a8 e3       	ldi	r26, 0x38	; 56
  dae:	b0 e0       	ldi	r27, 0x00	; 0
